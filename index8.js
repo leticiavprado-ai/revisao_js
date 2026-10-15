@@ -1,0 +1,11 @@
+let numero = 10;
+let texto = "5";
+let resultadoImplicito = numero + texto;
+console.log("Coerção implícita:");
+console.log(resultadoImplicito);
+console.log(typeof resultadoImplicito);
+let valor = "20";
+let resultadoExplicito = Number(valor);
+console.log("Coerção explícita:");
+console.log(resultadoExplicito);
+console.log(typeof resultadoExplicito);
